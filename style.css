@@ -1,0 +1,41 @@
+html{
+    background-color:antiquewhite;
+    margin: 0;
+}
+#keys{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    width:250px;
+    row-gap: 3px;
+    margin: 10px;
+    
+}
+#display{
+    width: 230px;
+    height: 35px;
+    border: 30px;
+    color: black;
+    text-align: left;
+}
+#calculator{
+    background-color:white;
+    color:black;
+    width: fit-content;
+    height: max-content;
+    
+}
+button{
+    background-color:whitesmoke;
+    color:black;
+    border-radius:100%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 10px;
+}
+#one{
+   background-color: orange;
+   color: azure;
+}
